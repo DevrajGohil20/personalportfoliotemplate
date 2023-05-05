@@ -1,0 +1,229 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: auto;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: grey;
+    width: 18vw;
+    height: 130vh;
+    transition: transform 0.0s ease-in;
+}
+
+.sidebar nav {
+    padding: auto;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: aquamarine; */
+    width: 82vw;
+    margin: 0%;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /* background-color: bisque; */
+    padding-top: 144px;
+    height: 60vh;
+    width: 140vh;
+    margin: auto;
+    margin: 93px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 300px;
+}
+
+.hello {
+    font-size: 30px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+
+.buttons button {
+    /* display: flex;
+    flex-direction: row; */
+    padding: auto;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.decPic img {
+    width: 320px;
+    height: 100x;
+}
+
+.contactform {
+    padding: 0 35px;
+    padding-top: 144px;
+    font-family: 'Lora', serif;
+
+}
+
+.contactform h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-bottom: 15px 0;
+
+}
+
+.contactform form div {
+    padding: 10px 0;
+}
+
+.contactform form div input {
+    /* padding: 10px 0; */
+    border-radius: 5px;
+    /* width: 222px; */
+}
+
+#emailphoneHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(201, 196, 196);
+    /* margin-right: 30px; */
+    margin: 0 0px;
+}
+
+.blogContainer {
+    margin: 20px;
+
+}
+
+.blogContainer h1 {
+    margin: 20px;
+
+}
+
+.blogContainer h2 {
+    margin: 20px;
+
+}
+
+.blogContainer p {
+    margin: 20px;
+    margin-top: 0%;
+    font-family: 'Lora', serif;
+}
+
+/* .blogItem btn btn-sm{
+    margin: 30px;
+} */
+
+.intro h2 {
+    margin: 40px;
+}
+
+.intro p {
+    font-family: 'Lora', serif;
+    margin: 40px;
+
+}
+
+.skillContainer {
+    padding: 12px;
+    margin: 20px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+
+.skill {
+    width: 300px;
+    height: 10px;
+    margin-right: 25px;
+    background-color: rgb(3, 25, 85);
+}
+
+.hundred {
+    width: 300px;
+    background-color: blueviolet;
+    /* margin-right: 100px; */
+}
+
+.fifty {
+    width: 150px;
+    background-color: rgb(154, 82, 222);
+}
+
+.twentyfive {
+    width: 75px;
+    background-color: rgb(168, 119, 213);
+}
+
+.sidebarGo {
+    transform: translate(-440px, 0px);
+    position: absolute;
+}
+
+.hamBurger {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 5px;
+}
+
+.cross {
+    margin-left: 237px;
+}
+
+@media (max-width:1400px) {
+    * {
+        /* background-color: rgb(225, 100, 100); */
+    }
+
+    /* .sidebar {
+        transform: translate(-440px, 0px);
+        position: absolute;
+    } */
+}
+
+/* .intro,.blogContainer, .contactform{
+    margin: 7px;
+} */
